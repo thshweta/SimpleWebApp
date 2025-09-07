@@ -9,12 +9,12 @@ public class HomeController {
 
     @RequestMapping("/")
     public String greet(){
-        return "Hello! Welcome to a Simple Web App";
+        return "Hello!! Welcome to a Simple Web App";
     }
 
     @RequestMapping("/about")
     public String about(){
-        return "returning info";
+        return "returning information";
     }
 
     @RequestMapping("/about/info")
