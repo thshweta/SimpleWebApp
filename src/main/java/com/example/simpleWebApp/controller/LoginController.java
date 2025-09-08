@@ -8,12 +8,12 @@ public class LoginController {
 
     @RequestMapping("/login")
     public String login(){ //all mapping from server to client is handled by Front controller
-        return "returning the login";
+        return "returns a login";
     }
 
     @RequestMapping("/login/user")
     public String user(){
-        return "Returning the user";
+        return "Returns a user";
     }
 
 }
